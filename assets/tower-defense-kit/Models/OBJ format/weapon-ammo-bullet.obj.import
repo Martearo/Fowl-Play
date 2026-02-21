@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bc34lrt73vynk"
+path="res://.godot/imported/weapon-ammo-bullet.obj-b92fee5f3f9b5f81236b2cd9a478101a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/weapon-ammo-bullet.obj-b92fee5f3f9b5f81236b2cd9a478101a.mesh"]
+
+source_file="res://assets/tower-defense-kit/Models/OBJ format/weapon-ammo-bullet.obj"
+dest_files=["res://.godot/imported/weapon-ammo-bullet.obj-b92fee5f3f9b5f81236b2cd9a478101a.mesh", "res://.godot/imported/weapon-ammo-bullet.obj-b92fee5f3f9b5f81236b2cd9a478101a.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

@@ -17,3 +17,11 @@ compatibility/default_parent_skeleton_in_mesh_instance_3d=true
 config/name="Fowl Play"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://Fowl-Play/icon.svg"
+
+[display]
+
+window/stretch/mode="viewport"
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0

@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://3pao7ti7y4b4"
+path="res://.godot/imported/tile-wide-straight.obj-187360c20628996bfdc963bd288e4b0a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tile-wide-straight.obj-187360c20628996bfdc963bd288e4b0a.mesh"]
+
+source_file="res://assets/tower-defense-kit/Models/OBJ format/tile-wide-straight.obj"
+dest_files=["res://.godot/imported/tile-wide-straight.obj-187360c20628996bfdc963bd288e4b0a.mesh", "res://.godot/imported/tile-wide-straight.obj-187360c20628996bfdc963bd288e4b0a.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false
