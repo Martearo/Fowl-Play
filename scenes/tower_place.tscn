@@ -1,0 +1,37 @@
+[gd_scene format=3 uid="uid://d35a0mpbbwuvr"]
+
+[ext_resource type="Texture2D" uid="uid://24kvqr2wq7ug" path="res://assets/tower-defense-kit/Previews/tile.png" id="1_k200n"]
+[ext_resource type="Texture2D" uid="uid://wu7dmhwe16w5" path="res://assets/tower-defense-kit/Previews/tile-crossing.png" id="2_l370p"]
+[ext_resource type="Texture2D" uid="uid://cmc6fio2f1sop" path="res://assets/tower-defense-kit/Previews/selection-a.png" id="3_3vw7a"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_d7ogp"]
+texture = ExtResource("1_k200n")
+margins = Vector2i(7, 16)
+texture_region_size = Vector2i(57, 32)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4e85k"]
+texture = ExtResource("2_l370p")
+margins = Vector2i(7, 16)
+texture_region_size = Vector2i(57, 32)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qubly"]
+texture = ExtResource("3_3vw7a")
+margins = Vector2i(7, 16)
+texture_region_size = Vector2i(57, 32)
+0:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_bf8qn"]
+tile_shape = 1
+tile_size = Vector2i(53, 33)
+sources/5 = SubResource("TileSetAtlasSource_d7ogp")
+sources/7 = SubResource("TileSetAtlasSource_4e85k")
+sources/8 = SubResource("TileSetAtlasSource_qubly")
+
+[node name="TowerPlace" type="Node2D" unique_id=1192645180]
+
+[node name="TileMapLayer2" type="TileMapLayer" parent="." unique_id=280473269]
+position = Vector2(6, 36)
+tile_map_data = PackedByteArray(0, 0, 5, 0, 29, 0, 8, 0, 0, 0, 0, 0, 0, 0)
+tile_set = SubResource("TileSet_bf8qn")
